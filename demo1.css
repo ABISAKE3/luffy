@@ -1,0 +1,81 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and set some basic styles for the header */
+header {
+    background-color: fuchsia;
+    
+    color: #fff;
+    text-align: center;
+    padding: 1px 0;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color:plum;
+    color: #fff;
+    padding: 10px 0;
+    font-weight: bold;
+    font-style: normal;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    border-bottom: gold;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color:#fff;
+    border-bottom: 2px solid  transparent;
+    font-weight: 800;
+}
+nav a:hover {
+    border-bottom: 2px solid white;
+    transition: .1s;
+}
+
+/* Create a flexible container for the main content */
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: fuchsia;
+}
+
+/* Style individual sections within the main content */
+section {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    /* box-shadow: 5px 5px 10px #333; */
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+    inset 4px 4px 10px white;
+    border-radius: 20px ;
+    overflow:auto;
+    background-color:plum ;
+}
+
+
+/* Style headings and paragraphs within sections */
+section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+    
+}
+
+section p {
+    line-height: 1.6;
+    color: #fff;
+}
+
